@@ -1,3 +1,4 @@
+%% coding: latin-1
 %% RabbitMQ gateway module for ejabberd.
 %% Based on ejabberd's mod_echo.erl
 %%---------------------------------------------------------------------------

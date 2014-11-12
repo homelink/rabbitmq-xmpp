@@ -5,7 +5,7 @@ VERSION=0.0.1
 EBIN_DIR=./ebin
 
 ifndef EJABBERD_DIR
-EJABBERD_DIR=/usr/local/ejabberd/lib/ejabberd
+EJABBERD_DIR=/lib/ejabberd
 endif
 EJABBERD_EBIN_DIR=$(EJABBERD_DIR)/ebin
 EJABBERD_INCLUDE_DIR=$(EJABBERD_DIR)/include

@@ -1,3 +1,4 @@
+%% coding: latin-1
 %% RabbitMQ gateway module for ejabberd.
 %% Based on ejabberd's mod_echo.erl
 %%---------------------------------------------------------------------------
@@ -53,6 +54,7 @@
 -include("ejabberd.hrl").
 -include("jlib.hrl").
 -include("rabbit.hrl").
+-include("logger.hrl").
 
 -record(state, { lserver, 
 				 consumer_tag, 
